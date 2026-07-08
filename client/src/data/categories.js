@@ -1,0 +1,23 @@
+// client/src/data/categories.js
+export const categoriesList = [
+  { name: "South Indian", img: "https://via.placeholder.com/200?text=South+Indian" },
+  { name: "North Indian", img: "https://via.placeholder.com/200?text=North+Indian" },
+  { name: "Chinese", img: "https://via.placeholder.com/200?text=Chinese" },
+  { name: "Snacks", img: "https://via.placeholder.com/200?text=Snacks" },
+  { name: "Desserts", img: "https://via.placeholder.com/200?text=Desserts" },
+  { name: "Beverages", img: "https://via.placeholder.com/200?text=Beverages" },
+  { name: "Italian", img: "https://via.placeholder.com/200?text=Italian" },
+  { name: "Thai", img: "https://via.placeholder.com/200?text=Thai" },
+  { name: "Continental", img: "https://via.placeholder.com/200?text=Continental" },
+  { name: "Salads", img: "https://via.placeholder.com/200?text=Salads" },
+  { name: "Soups", img: "https://via.placeholder.com/200?text=Soups" },
+  { name: "Biryani", img: "https://via.placeholder.com/200?text=Biryani" },
+  { name: "Fast Food", img: "https://via.placeholder.com/200?text=Fast+Food" },
+  { name: "Tandoori", img: "https://via.placeholder.com/200?text=Tandoori" },
+  { name: "Breakfast", img: "https://via.placeholder.com/200?text=Breakfast" },
+  { name: "Lunch", img: "https://via.placeholder.com/200?text=Lunch" },
+  { name: "Dinner", img: "https://via.placeholder.com/200?text=Dinner" },
+  { name: "Street Food", img: "https://via.placeholder.com/200?text=Street+Food" },
+  { name: "Seafood", img: "https://via.placeholder.com/200?text=Seafood" },
+  { name: "Fusion", img: "https://via.placeholder.com/200?text=Fusion" },
+];

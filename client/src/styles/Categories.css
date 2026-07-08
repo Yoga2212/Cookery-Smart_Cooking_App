@@ -1,0 +1,51 @@
+/* client/src/styles/Categories.css */
+
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 70vh;
+  overflow-y: auto;
+  align-items: center;
+  padding-right: 10px; /* avoid scrollbar overlay on cards */
+}
+
+/* Vertical scrollbar hide for all browsers */
+.categories-container::-webkit-scrollbar {
+  display: none;
+}
+.categories-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.category-card {
+  width: 80%;
+  max-width: 600px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+}
+
+.category-name {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.category-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Hide vertical scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
